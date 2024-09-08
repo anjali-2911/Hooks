@@ -12,6 +12,8 @@ const UseRef = () => {
         <input type='text' onChange={(e)=>setName(e.target.value)}/>
       <h1>name : {name}</h1>
       <h1>Count : {count.current}</h1>
+      <h2>Another Count : {count.current}</h2>
+
     </div>
   )
 }
